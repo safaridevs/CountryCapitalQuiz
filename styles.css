@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+/* Scoreboard */
+.scoreboard {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #0077b6;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Question Box */
+#question-box {
+  margin-bottom: 20px;
+}
+
+#options {
+  display: grid;
+  gap: 15px;
+}
+
+/* Option Buttons */
+.option {
+  background-color: #0077b6;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.option:hover {
+  background-color: #005f8c;
+}
+
+.option.correct {
+  background-color: #28a745 !important;
+  animation: correctFlash 0.3s;
+}
+
+.option.wrong {
+  background-color: #dc3545 !important;
+  animation: wrongFlash 0.3s;
+}
+
+.option.disabled {
+  cursor: not-allowed;
+}
+
+/* Summary Screen */
+#summary-screen {
+  display: none;
+  margin-top: 20px;
+}
+
+#summary-list {
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Animations */
+@keyframes correctFlash {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes wrongFlash {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Buttons */
+#next-btn,
+#restart-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #0096c7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#next-btn:hover,
+#restart-btn:hover {
+  background-color: #0077b6;
+}
