@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  overflow: hidden;
+  flex-direction: column;
 }
 
 .container {
@@ -106,4 +106,52 @@ h1 {
 #next-btn:hover,
 #restart-btn:hover {
   background-color: #0077b6;
+}
+
+/* Share Buttons */
+.share-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+#twitter-share,
+#facebook-share {
+  background-color: #1da1f2;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+#facebook-share {
+  background-color: #3b5998;
+}
+
+#twitter-share:hover {
+  background-color: #0d8af0;
+}
+
+#facebook-share:hover {
+  background-color: #2e4779;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}
+
+footer a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
