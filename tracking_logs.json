@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "driver_id": 3,
+    "delivery_request_id": 2,
+    "lat": 35.69,
+    "lng": -105.939,
+    "timestamp": "2025-06-27T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "driver_id": 3,
+    "delivery_request_id": 2,
+    "lat": 35.691,
+    "lng": -105.9385,
+    "timestamp": "2025-06-27T10:05:00Z"
+  }
+]
