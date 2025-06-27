@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "John's Auto Shop",
+    "email": "johnshop@example.com",
+    "phone": "555-0101",
+    "role": "shop"
+  },
+  {
+    "id": 2,
+    "name": "Mike's Auto Shop",
+    "email": "mike@example.com",
+    "phone": "555-0102",
+    "role": "shop"
+  },
+  {
+    "id": 3,
+    "name": "Driver A",
+    "email": "drivera@example.com",
+    "phone": "555-0201",
+    "role": "driver"
+  },
+  {
+    "id": 4,
+    "name": "Driver B",
+    "email": "driverb@example.com",
+    "phone": "555-0202",
+    "role": "driver"
+  }
+]
