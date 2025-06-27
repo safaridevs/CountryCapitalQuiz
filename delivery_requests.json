@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "shop_id": 1,
+    "part_name": "Alternator",
+    "description": "Need alternator for Toyota Corolla",
+    "pickup_address": "Auto Parts Warehouse, Main Street",
+    "pickup_lat": 35.6895,
+    "pickup_lng": -105.9378,
+    "dropoff_address": "John's Auto Shop, Elm Street",
+    "dropoff_lat": 35.6935,
+    "dropoff_lng": -105.935,
+    "status": "open"
+  },
+  {
+    "id": 2,
+    "shop_id": 2,
+    "part_name": "Brake Pads",
+    "description": "Front brake pads urgently needed",
+    "pickup_address": "Parts Depot, 2nd Avenue",
+    "pickup_lat": 35.691,
+    "pickup_lng": -105.94,
+    "dropoff_address": "Mike's Auto Shop, Pine Street",
+    "dropoff_lat": 35.695,
+    "dropoff_lng": -105.938,
+    "status": "claimed",
+    "claimed_by_driver_id": 3
+  },
+  {
+    "id": 3,
+    "shop_id": 1,
+    "part_name": "Battery",
+    "description": "12V car battery required",
+    "pickup_address": "Battery World, 5th Avenue",
+    "pickup_lat": 35.692,
+    "pickup_lng": -105.936,
+    "dropoff_address": "John's Auto Shop, Elm Street",
+    "dropoff_lat": 35.6935,
+    "dropoff_lng": -105.935,
+    "status": "delivered",
+    "claimed_by_driver_id": 4
+  }
+]
